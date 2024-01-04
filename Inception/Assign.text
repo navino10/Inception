@@ -1,0 +1,55 @@
+[EMMET?]
+Emmet is a plugin or developer tool kit that helps make your work faster and substantially enhances HTML and CSS workflows.
+
+[DIFFERENCE BETWEEN LIBRARY & FRAMEWORK?]
+//Library:
+*A set of assistance modules, objects, classes, functions, pre-written code, and so on.
+*Can be easily substituted by another library.
+*Libraries can be simply linked into existing programs to add specific functionality.
+*Since developing a library needs less code, performance and load time are improved.
+//Framework:
+*Includes a variety of APIs, compilers, support applications, libraries, and so on.
+*Are tough to replace.
+*It is tough to incorporate a framework seamlessly into an existing project.
+*The construction of a framework necessitates large amounts of code, which reduces performance and increases load time.
+
+[WHAT IS CDN & WHY DO WE USE IT?]
+//CDN - Content Delivery Netwrok
+*It intermediary servers between the client and the website server. 
+*These CDN servers manage some of the client-server communications.
+//USE:
+*It enables web applications to provide uninterrupted service to users when Servers go down, networks become congested, and connections get interrupted. 
+*It balance the load of network traffic, ensuring no one server gets overwhelmed.
+
+[WHY IS REACT IS KNOWN AS REACT?]
+*It "reacts" quickly to changes without reloading the whole page. 
+*It uses the virtual DOM to efficiently update parts of a webpage. 
+*It's built around components that "react" and update.
+
+[WHAT IS CROSSORIGIN IN SCRIPT TAG?]
+*The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers. 
+*Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+[DIFFERENCE BETWEEN REACT & REACTDOM?]
+//REACT:
+*It is a javascript library, designed for building better user interfaces.
+*It is responsible for creating views.
+*Whenever we use component,classes,elements...we are using React.
+/REACT DOM:
+*Itsis a complimentary library to React which glues React to the browser DOM.
+*It  is responsible to actually render UI in the browser.
+*Whenever we use methods like render() or findDOMNode(), we are using React-Dom.
+
+[DIFFERENCE BETWEEN REACT.DEVELOPMENT.JS & REACT.PRODUCTION.JS FILES CDN?]
+//DEVELOPMENT MODE:
+*We can enable and utilize React developer tools, devtools profiler, debugging environment attached with source code. 
+*We can utilize various functionalities such as Hot Module Replacement, diagnostics so that development environment will help to debug code.
+//PRODUCTION MODE:
+*Compression and Minification of Javascript and other resources happens to reduce size of the code.
+*Performance will be much faster in production mode when compared to development mode.
+
+[DIFFERENCE BETWEEN ASYNC & DEFER SCRIPTS?]
+//ASYNC:
+Scripts don't wait for each other. So if a smaller script is second in the order, it will be loaded before the previous longer one. 
+//DEFER:
+Scripts maintain their relative order which means the first script will be loaded first while all others below it will have to wait.
